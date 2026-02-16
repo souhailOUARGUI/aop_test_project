@@ -25,6 +25,6 @@ public class MetierImpl implements IMetier{
 
     @Override
     public Compte getCompte(Long code) {
-        return null;
+        return comptes.get(code);
     }
 }

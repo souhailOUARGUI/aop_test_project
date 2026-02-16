@@ -6,6 +6,11 @@ public class Compte {
     private double solde;
 
 
+    public Compte(Long code, double solde) {
+        this.code = code;
+        this.solde = solde;
+    }
+
     public Long getCode() {
         return code;
     }
