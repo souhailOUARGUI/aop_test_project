@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-16T18:05:38.853750564Z</date>
+  <millis>1771265138853</millis>
+  <nanos>750564</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:38.870711205Z</date>
+  <millis>1771265138870</millis>
+  <nanos>711205</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodevoid org.example.aop_test_project.test.AopTestProjectApplication.main(String[])</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:39.913636452Z</date>
+  <millis>1771265139913</millis>
+  <nanos>636452</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:39.914103050Z</date>
+  <millis>1771265139914</millis>
+  <nanos>103050</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodevoid org.example.aop_test_project.test.AopTestProjectApplication.start()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.664883527Z</date>
+  <millis>1771265144664</millis>
+  <nanos>883527</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.665490973Z</date>
+  <millis>1771265144665</millis>
+  <nanos>490973</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodevoid org.example.aop_test_project.metier.MetierImpl.addCompte(Compte)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.666320477Z</date>
+  <millis>1771265144666</millis>
+  <nanos>320477</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.666620089Z</date>
+  <millis>1771265144666</millis>
+  <nanos>620089</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodeLong org.example.aop_test_project.metier.Compte.getCode()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.666946645Z</date>
+  <millis>1771265144666</millis>
+  <nanos>946645</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodeLong org.example.aop_test_project.metier.Compte.getCode()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.667341932Z</date>
+  <millis>1771265144667</millis>
+  <nanos>341932</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=1</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.667540826Z</date>
+  <millis>1771265144667</millis>
+  <nanos>540826</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.667758772Z</date>
+  <millis>1771265144667</millis>
+  <nanos>758772</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodevoid org.example.aop_test_project.metier.MetierImpl.addCompte(Compte)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.667981455Z</date>
+  <millis>1771265144667</millis>
+  <nanos>981455</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=1</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.668173748Z</date>
+  <millis>1771265144668</millis>
+  <nanos>173748</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.668307664Z</date>
+  <millis>1771265144668</millis>
+  <nanos>307664</nanos>
+  <sequence>16</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.668518134Z</date>
+  <millis>1771265144668</millis>
+  <nanos>518134</nanos>
+  <sequence>17</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodeCompte org.example.aop_test_project.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.668729394Z</date>
+  <millis>1771265144668</millis>
+  <nanos>729394</nanos>
+  <sequence>18</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodeCompte org.example.aop_test_project.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.668948321Z</date>
+  <millis>1771265144668</millis>
+  <nanos>948321</nanos>
+  <sequence>19</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=0</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.669179346Z</date>
+  <millis>1771265144669</millis>
+  <nanos>179346</nanos>
+  <sequence>20</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.669372068Z</date>
+  <millis>1771265144669</millis>
+  <nanos>372068</nanos>
+  <sequence>21</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.669556326Z</date>
+  <millis>1771265144669</millis>
+  <nanos>556326</nanos>
+  <sequence>22</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodeString org.example.aop_test_project.metier.Compte.toString()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.670444439Z</date>
+  <millis>1771265144670</millis>
+  <nanos>444439</nanos>
+  <sequence>23</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodeString org.example.aop_test_project.metier.Compte.toString()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.670651359Z</date>
+  <millis>1771265144670</millis>
+  <nanos>651359</nanos>
+  <sequence>24</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=1</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:44.670776200Z</date>
+  <millis>1771265144670</millis>
+  <nanos>776200</nanos>
+  <sequence>25</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.025886834Z</date>
+  <millis>1771265149025</millis>
+  <nanos>886834</nanos>
+  <sequence>26</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.026433538Z</date>
+  <millis>1771265149026</millis>
+  <nanos>433538</nanos>
+  <sequence>27</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodeCompte org.example.aop_test_project.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.026701734Z</date>
+  <millis>1771265149026</millis>
+  <nanos>701734</nanos>
+  <sequence>28</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodeCompte org.example.aop_test_project.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.026889290Z</date>
+  <millis>1771265149026</millis>
+  <nanos>889290</nanos>
+  <sequence>29</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=0</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.027122848Z</date>
+  <millis>1771265149027</millis>
+  <nanos>122848</nanos>
+  <sequence>30</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.027288057Z</date>
+  <millis>1771265149027</millis>
+  <nanos>288057</nanos>
+  <sequence>31</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.027437394Z</date>
+  <millis>1771265149027</millis>
+  <nanos>437394</nanos>
+  <sequence>32</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodedouble org.example.aop_test_project.metier.Compte.getSolde()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.027582120Z</date>
+  <millis>1771265149027</millis>
+  <nanos>582120</nanos>
+  <sequence>33</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodedouble org.example.aop_test_project.metier.Compte.getSolde()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.027744929Z</date>
+  <millis>1771265149027</millis>
+  <nanos>744929</nanos>
+  <sequence>34</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=0</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.027878985Z</date>
+  <millis>1771265149027</millis>
+  <nanos>878985</nanos>
+  <sequence>35</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028112429Z</date>
+  <millis>1771265149028</millis>
+  <nanos>112429</nanos>
+  <sequence>36</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028274666Z</date>
+  <millis>1771265149028</millis>
+  <nanos>274666</nanos>
+  <sequence>37</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodeCompte org.example.aop_test_project.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028377333Z</date>
+  <millis>1771265149028</millis>
+  <nanos>377333</nanos>
+  <sequence>38</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodeCompte org.example.aop_test_project.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028482902Z</date>
+  <millis>1771265149028</millis>
+  <nanos>482902</nanos>
+  <sequence>39</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=0</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028581639Z</date>
+  <millis>1771265149028</millis>
+  <nanos>581639</nanos>
+  <sequence>40</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028680491Z</date>
+  <millis>1771265149028</millis>
+  <nanos>680491</nanos>
+  <sequence>41</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028768276Z</date>
+  <millis>1771265149028</millis>
+  <nanos>768276</nanos>
+  <sequence>42</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>beforePc1</method>
+  <thread>3</thread>
+  <message>Avant execution de la méthodeString org.example.aop_test_project.metier.Compte.toString()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.028945249Z</date>
+  <millis>1771265149028</millis>
+  <nanos>945249</nanos>
+  <sequence>43</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Après execution de la méthodeString org.example.aop_test_project.metier.Compte.toString()</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.029123460Z</date>
+  <millis>1771265149029</millis>
+  <nanos>123460</nanos>
+  <sequence>44</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>Durée d'exec=1</message>
+</record>
+<record>
+  <date>2026-02-16T18:05:49.029236914Z</date>
+  <millis>1771265149029</millis>
+  <nanos>236914</nanos>
+  <sequence>45</sequence>
+  <logger>org.example.aop_test_project.aspects.LogingAspect</logger>
+  <level>INFO</level>
+  <class>org.example.aop_test_project.aspects.LogingAspect</class>
+  <method>afterPc1</method>
+  <thread>3</thread>
+  <message>*****************************</message>
+</record>
