@@ -12,10 +12,9 @@ import java.util.Scanner;
 public class AopTestProjectApplication {
 
     public static void main(String[] args) {
-//        SpringApplication.run(AopTestProjectApplication.class, args);
+      SpringApplication.run(AopTestProjectApplication.class, args);
         new AopTestProjectApplication().start();
     }
-
     private void start(){
         System.out.println("demarrage de l'application");
         Scanner scaner = new Scanner(System.in);
