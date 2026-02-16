@@ -21,6 +21,12 @@ public class MetierImpl implements IMetier{
     public void retirer(Long code, double mt) {
         Compte cp= comptes.get(code);
         cp.setSolde(cp.getSolde()-mt);
+
+//        try {
+//            Thread.sleep(3000);
+//        }catch(InterruptedException e){
+//            e.printStackTrace();
+//        }
     }
 
     @Override
