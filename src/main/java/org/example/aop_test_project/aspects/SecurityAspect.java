@@ -11,7 +11,7 @@ public class SecurityAspect {
     private String usernam = "root";
     private String passsword = "1234";
 
-    @Around("execution(* test.Application.start(..))")
+    @Around("execution(* org.example.aop_test_project.test.AopTestProjectApplication.start(..))")
     public void secure(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println("Authentifiation par l'aspet Security ");
         Scanner scanner = new Scanner(System.in);
@@ -20,7 +20,6 @@ public class SecurityAspect {
 
         if (username.equals("root") && password.equals("1234"))
             proceedingJoinPoint.proceed();
-
         else throw new RuntimeException("Access denied");
     }
 
